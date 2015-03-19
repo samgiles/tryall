@@ -1,6 +1,7 @@
 {
   "name": "tryall",
-  "script": { test: "mocha" },
+  "version": "0.0.0",
+  "script": { "test": "mocha" },
   "devDependencies": {
     "es6-promise": "^2.0.1",
     "mocha": "^2.2.1"
