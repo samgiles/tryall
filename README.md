@@ -1,9 +1,12 @@
-# Promise.tryAll
+# Promise tryall
 
-A Promise function that will try resolving all of the Promises passed to it,
+A Promise function that will try to resolve all of the Promises passed to it,
 if any succeed, the promise will get resolved and will not error, if they ALL fail then the
 promise is rejected.
 
+This is useful for trying to do many concurrent operations at the same time
+and collecting the results afterwards in a higher level abstraction.  See the
+example.
 
 ## Bring your own `Promise`s
 
