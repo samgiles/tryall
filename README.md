@@ -1,5 +1,7 @@
 # Promise tryall
 
+[![Build Status](https://travis-ci.org/samgiles/tryall.svg?branch=master)](https://travis-ci.org/samgiles/tryall)
+
 A Promise function that will try to resolve all of the Promises passed to it,
 if any succeed, the promise will get resolved and will not error, if they ALL fail then the
 promise is rejected.
